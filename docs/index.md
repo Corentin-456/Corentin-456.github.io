@@ -18,4 +18,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Test
 ![bras souris](img/arm.png)
-![soclet](img:socket.jpg)
+![socket](img/socket.jpg)
