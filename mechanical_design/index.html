@@ -9,26 +9,28 @@
       
       
       
+        <link rel="prev" href="../architecture/">
       
-        <link rel="next" href="architecture/">
+      
+        <link rel="next" href="../sensors/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
-        <title>ProMice</title>
+        <title>Mechanical design - ProMice</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,11 +49,11 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#promice-from-hermin-project" class="md-skip">
+        <a href="#shoulder-ball-joint-type" class="md-skip">
           Skip to content
         </a>
       
@@ -88,9 +90,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="ProMice" class="md-header__button md-logo" aria-label="ProMice" data-md-component="logo">
+    <a href=".." title="ProMice" class="md-header__button md-logo" aria-label="ProMice" data-md-component="logo">
       
-  <img src="images/Logo_white.png" alt="logo">
+  <img src="../images/Logo_white.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Mechanical design
             
           </span>
         </div>
@@ -180,11 +182,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -201,11 +201,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="architecture/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../architecture/" class="md-tabs__link">
           
   
   
@@ -225,7 +227,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="3D_printing/" class="md-tabs__link">
+        <a href="../3D_printing/" class="md-tabs__link">
           
   
   
@@ -259,9 +261,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="ProMice" class="md-nav__button md-logo" aria-label="ProMice" data-md-component="logo">
+    <a href=".." title="ProMice" class="md-nav__button md-logo" aria-label="ProMice" data-md-component="logo">
       
-  <img src="images/Logo_white.png" alt="logo">
+  <img src="../images/Logo_white.png" alt="logo">
 
     </a>
     ProMice
@@ -273,37 +275,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -319,48 +294,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#promice-prosthesis" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ProMice Prosthesis
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#promice-instrumented-version" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ProMice - Instrumented version
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -369,28 +302,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -408,7 +344,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -426,7 +362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="architecture/" class="md-nav__link">
+      <a href="../architecture/" class="md-nav__link">
         
   
   
@@ -451,10 +387,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="mechanical_design/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mechanical design
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -470,6 +431,74 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#shoulder-ball-joint-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shoulder ball-joint-type
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ball-joint-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ball joint design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ball joint design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ampitud-of-movement-of-ball-joint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ampitud of movement of ball joint
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yaw-lock-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yaw-lock system
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -482,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sensors/" class="md-nav__link">
+      <a href="../sensors/" class="md-nav__link">
         
   
   
@@ -510,7 +539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="hardware/" class="md-nav__link">
+      <a href="../hardware/" class="md-nav__link">
         
   
   
@@ -599,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3D_printing/" class="md-nav__link">
+      <a href="../3D_printing/" class="md-nav__link">
         
   
   
@@ -627,7 +656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="soldering/" class="md-nav__link">
+      <a href="../soldering/" class="md-nav__link">
         
   
   
@@ -655,7 +684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="instrumentation/" class="md-nav__link">
+      <a href="../instrumentation/" class="md-nav__link">
         
   
   
@@ -683,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="electronics/" class="md-nav__link">
+      <a href="../electronics/" class="md-nav__link">
         
   
   
@@ -711,7 +740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="assembling/" class="md-nav__link">
+      <a href="../assembling/" class="md-nav__link">
         
   
   
@@ -739,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="encoders_linearization/" class="md-nav__link">
+      <a href="../encoders_linearization/" class="md-nav__link">
         
   
   
@@ -767,7 +796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="control/" class="md-nav__link">
+      <a href="../control/" class="md-nav__link">
         
   
   
@@ -795,7 +824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="materials/" class="md-nav__link">
+      <a href="../materials/" class="md-nav__link">
         
   
   
@@ -840,8 +869,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -850,10 +877,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#promice-prosthesis" class="md-nav__link">
+  <a href="#shoulder-ball-joint-type" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ProMice Prosthesis
+        Shoulder ball-joint-type
       
     </span>
   </a>
@@ -861,10 +888,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#promice-instrumented-version" class="md-nav__link">
+  <a href="#ball-joint-design" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ProMice - Instrumented version
+        Ball joint design
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ball joint design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ampitud-of-movement-of-ball-joint" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ampitud of movement of ball joint
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yaw-lock-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Yaw-lock system
       
     </span>
   </a>
@@ -888,34 +943,93 @@
 
 
 
-<h1 id="promice-from-hermin-project">ProMice from HERMIN project</h1>
-<p>Haptic Exploration and Reflex Motor control In a Neuroprosthesis :
-Project HERMIN aims to develop and explore for the first time 
-adaptive shared-control strategy in a bidirectional neuroprosthesis with direct sensory feedback 
-from the prosthesis to the cerebral cortex. To achieve this goal, researcher <a href="https://neuropsi.cnrs.fr/annuaire/luc-estebanez/">Luc Estebanez</a> and 
-his team at  Paris - Saclay Neuro Sciences Institute; <a href="https://neuropsi.cnrs.fr/">NeuroPsi</a>, have developed ProMice, a miniaturised mouse forelimb prosthesis with 4 degrees-of-freedom.</p>
-<h2 id="promice-prosthesis">ProMice Prosthesis</h2>
-<p><img alt="mouse_leg" class="center" id="mouse_leg" src="images/Mouse_Leg.png" width="70%" /></p>
-<p>The prosthesis implements a motion-tracking system that relies on cameras and an infrared IR LED markers.
-A microcontroller triangulates the 3D position based on data from the cameras and performs position control.</p>
-<p><img alt="Cameras" class="center" src="images/Cameras.png" width="70%" /></p>
-<p>Both cameras are positioned on the side of the prosthesis at a fixed distance from the LEDs and at a fixed angle to each other. The position of the leg's LED is determined by
-triangulation, using one camera as a reference relative to the other.</p>
-<p><img alt="leg" class="center" src="images/Leg.png" width="50%" /></p>
-<p>The prosthesis has three more IR LEDs to create a virtual reference space.</p>
-<h2 id="promice-instrumented-version">ProMice - Instrumented version</h2>
-<p>Camera-based motion tracking presented certain limitations. If the IR LED moves out of the camera's framing, the position
-of the prosthesis is lost. The tracking system is also susceptible to positional disturbances or misalignment, making it necessary to
-perform a recalibration, which takes a considerable amount of time. Another consideration is the space occupied by the system. During experiments,
-extreme care is required to avoid touching the cameras and accidentally misplacing them.</p>
-<p>Researchers of ESME Research lab, <a href="https://www.esme.fr/recherche/chercheur/alex-caldas/">Alex Caldas</a> and <a href="https://www.esme.fr/recherche/chercheur/juan-carlos-martinez-rochas/">Juan Carlos Martinez</a>
-have colaborated to the project to develope new version of ProMice. It primarily addresses the limitations of camera-based motion tracking systems.
-This new version uses 3D Hall effect sensors embedded in the prosthesis joints to measure its position locally.</p>
-<p><img alt="leg" class="center" src="images/ProMice_V2.png" width="60%" /></p>
-<p>To adapt the sensors to the prosthesis, a ball-and-socket joint was designed that moves in two degrees of freedom
-(<span class="arithmatex">\(a_2\)</span> and <span class="arithmatex">\(a_3\)</span>) and features an internal ball bearing system to prevent rotation about its own axis, 
-since this rotation is already accounted for by <span class="arithmatex">\(a_1\)</span>. The Hall effect sensor in the ball-and-socket joint measures <span class="arithmatex">\(a_2\)</span> and <span class="arithmatex">\(a_3\)</span>, 
-while a second Hall sensor measures the rotation of <span class="arithmatex">\(a_4\)</span> .</p>
+  <h1>Mechanical design</h1>
+
+<h2 id="shoulder-ball-joint-type">Shoulder ball-joint-type</h2>
+<p><a href="../#mouse_leg">ProMice prosthesis</a> shoulder is a 3DOF joint from which only <span class="arithmatex">\(\alpha_1\)</span> is measured.
+ <span class="arithmatex">\(\alpha_2\)</span> and <span class="arithmatex">\(\alpha_2\)</span> are degrees of freedom coupled by a universal joint. </p>
+<p><img alt="Promice universal joint" class="center" src="../images/Promice_V1_joints.png" width="80%" /></p>
+<p>This is a system difficult to instrument if we want to measure the angles. Choosing from the typical encoding 
+techniques would mean to instal a sensor on each axe, like a pottentiometer, an optical encoder or a hall sensor for example. 
+Cependant il existe des capteurs à effet Hall qui mesurent les composantes x,y et z du champ magnétique. Cette caractéristique 
+permet d'estimer la position d'un aimant qui pend face au capteur, notamment les rotations ortogonales à l'axe z du capteur. 
+En partant de cette idée, nous avons decidé d'implementer un configuration de joint de type rotule (socket-ball) en integrant le capteur Hall 3D 
+à l'intérieur de la coque qui maintient la rotule. Dans la section <a href="../sensors/">Sensors</a>, vous pouvez trouver plus de détails sur 
+l'utilization du capteur, tels le numéro de composant, les types de données, le calcul des angles, connexions capteur - micro, etc. </p>
+<p>Pour élaborer une telle articulation nous avons dû considerer, avant tout, la taille de l'ancienne version de ProMice ansi que celle
+du capteur. Ces deux contraintes nous ont conduits au choix de dimensions suivants. </p>
+<h2 id="ball-joint-design">Ball joint design</h2>
+<h3 id="ampitud-of-movement-of-ball-joint">Ampitud of movement of ball joint</h3>
+<p>Pour la conception, il a été necessaire d'imprimer une sphère avec une tige attachée et une coque. Nous avons fait une série d'iterations
+d'impersion 3D pour déterminer quelle pouvait être une taille raisonable en respectant les contraintes mentionées. 
+Vues les limites de l'impresion 3D en resine remarquées sur la surface spherique de la boule ansi que celle à l'intérieur de la coque, 
+nous avons choisi un diamètre de <span class="arithmatex">\(8\)</span> <span class="arithmatex">\(mm\)</span> pour la sphère et de <span class="arithmatex">\(3\)</span> <span class="arithmatex">\(mm\)</span> pour la tige. Il est important de considèrer une tolerance d'une pièce 
+par rapport a l'autre. Dans notre cas, il y a un écart de 0.04 mm entre le diemètre de la sphère et celui de lintérierur de la coque.
+Cette tolérance fonction aussi pour les trous. </p>
+<p>El parametro mas importante al momento de disenar el socket que contiene la bola es la amplitud de movimiento
+que esta va a permitir. Tambien realizamos alguna simulaciones para ver la atenuacion del campo magnetico segun 
+la inclinacion de la torula. por lo tanto</p>
+<p><img alt="Amplitude" class="center" src="../images/Socket_chord.png" width="38%" /></p>
+<div class="arithmatex">\[\begin{equation} \label{eq:theta_chord}
+    \theta_c = arcsin(\frac{d_s}{2r})+\theta_d
+\end{equation}\]</div>
+<div class="arithmatex">\[\begin{equation} \label{eq:chord}
+    c = 2*r*sin(\theta_c)
+\end{equation}\]</div>
+<p>To chose the size of the magnet and the magnet-sensor gap. <a href="../sensors/#sensor-simulations">Hall sensor simulation</a></p>
+<p><img alt="Magnet placement" class="center" src="../images/Ball_magnet_sensor.png" width="55%" /></p>
+<div class="arithmatex">\[\begin{equation} \label{eq:AG}
+    AG_{min} = l_{a-m}\left(\sqrt{1+(\frac{d_m}{l_{a-m}})^2}-1\right)
+\end{equation}\]</div>
+<p><img align="left" alt="Air Gap simulation" src="../images/AirGap_plot.png" width="47%" />
+<img align="right" alt="Magnet diameter simulation" src="../images/MagDiam_plot.png" width="47%" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Ball joint design parameters</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Ball radius</td>
+<td style="text-align: center;"><span class="arithmatex">\(r\)</span> = 4 𝑚𝑚</td>
+</tr>
+<tr>
+<td style="text-align: center;">Amplitude of movement</td>
+<td style="text-align: center;"><span class="arithmatex">\(𝛼_{2,3}\)</span> = ±35°</td>
+</tr>
+<tr>
+<td style="text-align: center;">Magnet diameter</td>
+<td style="text-align: center;"><span class="arithmatex">\(𝑑_𝑚\)</span> = 3 𝑚𝑚</td>
+</tr>
+<tr>
+<td style="text-align: center;">Magnet thikness</td>
+<td style="text-align: center;"><span class="arithmatex">\(th_m\)</span> = 1 𝑚𝑚</td>
+</tr>
+<tr>
+<td style="text-align: center;">Magnet-sensor gap</td>
+<td style="text-align: center;">𝐴𝐺  = 1 𝑚𝑚</td>
+</tr>
+<tr>
+<td style="text-align: center;">Socket-ball tolerance</td>
+<td style="text-align: center;"><span class="arithmatex">\(T\)</span> = 0.02 𝑚𝑚</td>
+</tr>
+<tr>
+<td style="text-align: center;">Stick diameter</td>
+<td style="text-align: center;"><span class="arithmatex">\(𝑑_𝑠\)</span> = 3 𝑚𝑚</td>
+</tr>
+<tr>
+<td style="text-align: center;">Socket chord</td>
+<td style="text-align: center;"><span class="arithmatex">\(c\)</span> = 8 𝑚𝑚</td>
+</tr>
+</tbody>
+</table>
+<p>Add formulas here</p>
+<h2 id="yaw-lock-system">Yaw-lock system</h2>
+<p>describe the yaw lock system</p>
+<p><img alt="Yaw-lock system" class="center" id="yaw_lock_system" src="../images/yaw_lock_system.png" width="70%" /></p>
+<p>add an image of the ball joint 3D model</p>
 
 
 
@@ -960,16 +1074,16 @@ while a second Hall sensor measures the rotation of <span class="arithmatex">\(a
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.instant", "navigation.expand", "search.highlight", "search.suggest", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.instant", "navigation.expand", "search.highlight", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
-        <script src="javascripts/mathjax.js"></script>
+        <script src="../javascripts/mathjax.js"></script>
       
         <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
       
-        <script src="javascripts/katex.js"></script>
+        <script src="../javascripts/katex.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
       
